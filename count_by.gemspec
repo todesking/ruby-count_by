@@ -7,9 +7,9 @@ Gem::Specification.new do |gem|
   gem.version       = "1.0.0"
   gem.authors       = ["todesking"]
   gem.email         = ["discommunicative@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Enumerable#count_by}
+  gem.summary       = %q{Enumerable#count_by}
+  gem.homepage      = "https://github.com/todesking/ruby-count_by"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }

@@ -34,6 +34,6 @@ Or install it yourself as:
 
 ## Changes
 
-### 1.0.0(unreleased)
+### 1.0.0
 
 * Initial release
