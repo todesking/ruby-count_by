@@ -39,6 +39,10 @@ enum.each{|x| x % 3}
 
 ## Changes
 
+### 1.1.0(Unreleased)
+
+* Call `count_by` without a block returns Enumerator
+
 ### 1.0.0
 
 * Initial release
