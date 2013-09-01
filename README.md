@@ -22,6 +22,11 @@ Or install it yourself as:
 ```ruby
 [1, 1, 2, 3, 4, 5].count_by{|x| x % 3}
 #=> {1=>3, 2=>2, 0=>1}
+
+enum = [1, 1, 2, 3, 4, 5].count_by
+#=> #<Enumerator: ...>
+enum.each{|x| x % 3}
+#=> {1=>3, 2=>2, 0=>1}
 ```
 
 ## Contributing
