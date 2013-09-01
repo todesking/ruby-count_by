@@ -1,5 +1,7 @@
 # count_by
 
+[![Build Status](https://travis-ci.org/todesking/ruby-count_by.png?branch=master)](https://travis-ci.org/todesking/ruby-count_by)
+
 This gem provides `Enumerable#count_by(&block)`, take a block for compute key value and returns `{ key => count_of_key_in_the_collection }`.
 
 
